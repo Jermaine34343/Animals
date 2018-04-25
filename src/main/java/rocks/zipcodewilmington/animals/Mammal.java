@@ -12,7 +12,7 @@ public abstract class Mammal implements Animal {
     private final Integer id;
     private ArrayList<Food> eatenMeals;
     private String name;
-    private Date birthDate;
+    private static Date birthDate;
 
     public Mammal(String name, Date birthDate, Integer id) {
         this.name = name;
@@ -29,12 +29,13 @@ public abstract class Mammal implements Animal {
         this.name = name;
     }
 
-    public Date getBirthDate() {
-        return birthDate;
+    public static Date getBirthDate() {
+            return birthDate;
     }
 
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
+
     }
 
 
