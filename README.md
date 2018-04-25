@@ -78,3 +78,4 @@
     * ensure that when `.getNumberOfCats()` is invoked on the `DogHouse`, the respective number of `Dog` objects is returned.
 
 # TDD-Animals
+# Animals
